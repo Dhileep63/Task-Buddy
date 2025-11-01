@@ -1,0 +1,89 @@
+.app {
+    text-align: center;
+    /*font-family: Arial, sans-serif;*/
+    font-family: 'Times New Roman';
+    color: blueviolet;
+}
+
+.home {
+    padding: 20px;
+    background-image: url('https://images.unsplash.com/photo-1652170226044-711dff674316?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dG8lMjBkbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 150vh;
+}
+
+.task-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.task-input {
+    width: 300px; 
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+     background-color: yellow;
+}
+
+.add-task-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-task-button:hover {
+    background-color: #218838;
+}
+
+.task-sections {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.task-section {
+    /* border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 30%;
+    padding: 10px; */
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    background-color: cyan; /* blue background */
+    color: fuchsia;
+    font-family: Georgia;
+}
+
+.task-section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* .task-section select {
+    background-color: yellow;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+
+} */
+
+
+/*using hover or focus */
+
+.task-section select:hover,
+.task-section select:focus {
+    background-color: #ffe066; /* lighter yellow */
+    border-radius: 6px; /* increased on hover/focus */
+}
